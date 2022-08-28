@@ -9,6 +9,9 @@
     "breed": {
       "loremWord": {}
     },
+    "locaton": {
+      "loremWord": {}
+    },
     "healthInfo": {
       "loremWords": { "minLength": 5, "maxLength": 20 }
     },
