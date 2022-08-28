@@ -1,5 +1,5 @@
 {
-  "Pet": {
+  "Pets": {
     "id": { "int": { "min": 0, "max": 99999999999 } },
     "name": { "string": { "minLength": 3, "maxLength": 10 } },
     "picture": { "regexp": "https://…" },
