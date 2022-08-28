@@ -21,10 +21,7 @@
       "string": [
         "Cat",
         "Dog",
-        "Bird",
-        "Hamster",
-        "Horser",
-        "Other"
+        "Others"
         ]
      } 
    }
