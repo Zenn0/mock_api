@@ -1,5 +1,5 @@
 {
-  "Pets": {
+  "Post": {
     "name": { "string": {} },
     "comments": {
       "hasMany": "Comment"
