@@ -1,8 +1,8 @@
 {
   "Pets": {
     "id": { "int": { "min": 0, "max": 99999999999 } },
-    "name": { "string": { "minLength": 3, "maxLength": 10 } },
-    "picture": { "regexp": "https://…" },
+    "name": { "regexp": "[A-Z][a-z]{5,10}" },
+    "picture": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
     "about": {
     "loremSentences": { "minLength": 100, "maxLength": 200 }
     },
