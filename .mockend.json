@@ -1,6 +1,5 @@
 {
   "Post": {
-    "Pets":{
       "name": { "regexp": "[A-Z][a-z]{5,10}" },
       "picture": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
       "about": {
@@ -8,7 +7,7 @@
       },
       "age": { "int": { "min": 0, "max": 20 } },
       "breed": {
-        "loremWord": {}
+       "loremWord": {}
       },
       "healthInfo": {
         "loremWords": { "minLength": 5, "maxLength": 20 }
@@ -23,8 +22,6 @@
           "Hamster",
           "Horser",
           "Other"
-          ]
-      }
-     }
-   }
- }
+         ]
+    }
+  }  
